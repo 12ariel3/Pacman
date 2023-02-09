@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-game{
+    width: 560px;
+    height: 560px;
+    background-color: rgb(234, 243, 252);
+}
+
+.score{
+    width: 200px;
+    height: 70px;
+    margin: 20px auto 0;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: rgb(87, 175, 0);
+    cursor: default;
+}
+
+.arrows{
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 175, 0);
+    gap: 10px;
+    cursor: default;
+}
+
+.other-arrows{
+    display: flex;
+    gap: 10px;
+}
+
+.arrow{
+    padding: 10px;
+   border: 1px solid rgb(87, 175, 0);
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+}
+
+.up-arrow, .down-arrow{
+    padding: 10px 15px;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot{
+    background-color: rgb(1, 165, 1);
+    border: 5px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.wall{
+    background-color: rgb(0, 0, 255);
+}
+
+.power-pellet{
+    background-color: rgb(1, 165, 1);
+    border-radius: 10px;
+}
+
+.blinky{
+    background-color: red;
+    border: 0;
+}
+
+.pinky{
+    background-color: pink;
+    border: 0;
+}
+
+.inky{
+    background-color: cyan;
+    border: 0;
+}
+
+.clyde{
+    background-color: orange;
+    border: 0;
+}
+
+.scared-ghost{
+    background-color: rgb(146, 231, 203);
+    border: 0;
+}
+
+.pac-man{
+    background-color: rgb(255, 255, 0);
+    border-radius: 10px;
+}
